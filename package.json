@@ -1,0 +1,23 @@
+{
+	"name": "tch-nedb-session",
+	"version": "1.0.0",
+	"description": "Expressjs file session store based on NeDB.",
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Tomas Chyly <chyly@tomas-chyly.com> (https://tomas-chyly.com/en/)",
+	"license": "MIT",
+	"dependencies": {
+		"nedb": "^1.8.0"
+	},
+	"keywords": [
+		"nedb",
+		"session",
+		"express",
+		"express-session"
+	]
+}
