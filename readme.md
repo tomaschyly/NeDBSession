@@ -30,7 +30,7 @@ let app = express ();
 
 let expiration = 24 * 60 * 60 * 1000;
 let sessionStore = new nedbStorage ({
-	filename: path.join ((electron.app || electron.remote.app).getPath ('userData'), config.nedb.directory, 'sessions.db'),
+	filename: 'path_to_sessions.db',
 	expiration: expiration,
 	expirationType: 'interval',
 	autoCompactInterval: 15 * 60 * 1000,
