@@ -1,6 +1,6 @@
 {
 	"name": "tch-nedb-session",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Expressjs file session store based on NeDB.",
 	"engines": {
 		"node": ">=8.0.0"
