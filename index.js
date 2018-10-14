@@ -48,6 +48,8 @@ module.exports = function (session) {
 
 							this.expirationInterval = setInterval (this.clearExpired.bind (this), this.options.expirationInterval);
 							this.clearExpired ();
+
+							this.collection.removeIndex ('expiresAt');
 						}
 					}
 

@@ -12,7 +12,7 @@ This will install `tch-nedb-session` and add it to your application's `package.j
 
 ## Important Notes
 
-The package was developed and tested using `Express v4` and `Node v8`.
+The package was developed and tested using `Express v4` with `Node v8` and `Node v10`.
 
 While using `NeDB` I found out that in my apps TTL index on collections does not work. Therefore I decided to develop this session store and implement option to use interval instead.
 `If you have issue with TTL index on sessions not working for you too, then use interval expirationType.`
